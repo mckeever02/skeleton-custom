@@ -1,0 +1,10 @@
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: $link-color;
+  &:hover, &:focus {
+    color: darken($link-color,9%);
+  }
+}
+
+
